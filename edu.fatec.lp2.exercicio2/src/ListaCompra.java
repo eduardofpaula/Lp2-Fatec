@@ -1,15 +1,15 @@
 import java.util.List;
 
 public class ListaCompra implements Calculavel{
-    private List<ItemCompra> ItemCompra[];
+    private List<ItemCompra> itensCompra;
     private int qtdeMax;
 
-    public List<ItemCompra>[] getItemCompra() {
-        return ItemCompra;
+    public List<ItemCompra> getItensCompra() {
+        return itensCompra;
     }
 
-    public void setItemCompra(List<ItemCompra>[] itemCompra) {
-        ItemCompra = itemCompra;
+    public void setItensCompra(List<ItemCompra> itensCompra) {
+        this.itensCompra = itensCompra;
     }
 
     public int getQtdeMax() {
@@ -26,7 +26,10 @@ public class ListaCompra implements Calculavel{
 
     @Override
     public double calcularPreco(){
-
+        double soma = 0;
+        for(ItemCompra i: itensCompra){
+            soma += i.calcularPreco();
+        }
+        return soma;
     }
-
 }
