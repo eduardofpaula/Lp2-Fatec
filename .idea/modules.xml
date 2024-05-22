@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Lp2-Fatec.iml" filepath="$PROJECT_DIR$/.idea/Lp2-Fatec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/projWhatsapp/projWhatsapp.iml" filepath="$PROJECT_DIR$/projWhatsapp/projWhatsapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu.fatec.lp2.exercicio1/projWhatsapp.iml" filepath="$PROJECT_DIR$/edu.fatec.lp2.exercicio1/projWhatsapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/projetos/projetos.iml" filepath="$PROJECT_DIR$/projetos/projetos.iml" />
     </modules>
   </component>
